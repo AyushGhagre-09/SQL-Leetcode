@@ -42,7 +42,7 @@ Every `.sql` file follows this structure for easy revision:
 -- Problem  : Problem Name Here
 -- Difficulty: Easy / Medium / Hard
 -- Link     : https://leetcode.com/problems/...
--- Topics   : SELECT, WHERE
+
 
 -- Your solution here
 SELECT column1 FROM table_name WHERE condition;
