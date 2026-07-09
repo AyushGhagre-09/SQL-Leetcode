@@ -1,6 +1,7 @@
 -- Problem  :  Combine Two Tables
 -- Difficulty: Easy 
--- Link     : https://leetcode.com/problems/combine-two-tables/
+-- Link     : https://leetcode.com/problems/combine-two-tables/description/
+
 -- Your solution here
 SELECT
  p.firstName,
