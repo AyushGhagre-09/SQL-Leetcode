@@ -3,7 +3,6 @@
 -- Link     : https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/
 
 -- Your solution here
-# Write your MySQL query statement below
 SELECT
  name
 FROM 
