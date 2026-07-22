@@ -1,4 +1,4 @@
--- Problem  :  https://leetcode.com/problems/trips-and-users/
+-- Problem  :   Trips and Users
 -- Difficulty: Hard
 -- Link     :  https://leetcode.com/problems/trips-and-users/description
 
