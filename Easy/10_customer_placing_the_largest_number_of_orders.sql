@@ -4,14 +4,21 @@
 
 
 -- Your solution here
-SELECT
- T.customer_number
-FROM(
-    SELECT
-    customer_number,
-    COUNT(order_number) AS total_customer_orders
-    FROM Orders
-    GROUP BY customer_number
-    ORDER BY total_customer_orders DESC
-    LIMIT 1
-) AS T
+-- SELECT
+--  T.customer_number
+-- FROM(
+--     SELECT
+--     customer_number,
+--     COUNT(order_number) AS total_customer_orders
+--     FROM Orders
+--     GROUP BY customer_number
+--     ORDER BY total_customer_orders DESC
+--     LIMIT 1
+-- ) AS T
+
+
+SELECT customer_number
+FROM Orders
+GROUP BY customer_number
+ORDER BY COUNT(order_number) DESC
+LIMIT 1;
