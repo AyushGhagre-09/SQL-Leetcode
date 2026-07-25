@@ -16,6 +16,7 @@
 --     LIMIT 1
 -- ) AS T
 
+-- Optimal  Approach
 
 SELECT customer_number
 FROM Orders
