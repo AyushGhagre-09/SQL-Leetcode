@@ -2,7 +2,6 @@
 -- Difficulty: Easy 
 -- Link     :  https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/
 
-
 -- Your solution here
 -- SELECT
 --  T.customer_number

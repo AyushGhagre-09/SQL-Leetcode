@@ -2,7 +2,6 @@
 -- Difficulty: Easy 
 -- Link     :  https://leetcode.com/problems/employee-bonus/description/
 
-
 -- Your solution here
 SELECT
  e.name,

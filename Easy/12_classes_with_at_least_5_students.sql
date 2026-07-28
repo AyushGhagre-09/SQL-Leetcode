@@ -2,7 +2,6 @@
 -- Difficulty: Easy 
 -- Link     :  https://leetcode.com/problems/classes-with-at-least-5-students/description/
 
-
 -- Your solution here
 SELECT
 class

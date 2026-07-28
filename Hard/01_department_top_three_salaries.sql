@@ -2,7 +2,6 @@
 -- Difficulty: Hard
 -- Link     :  https://leetcode.com/problems/department-top-three-salaries/description/
 
-
 -- Your solution here
 SELECT
  T.Department,

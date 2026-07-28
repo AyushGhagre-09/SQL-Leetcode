@@ -2,7 +2,6 @@
 -- Difficulty: Easy 
 -- Link     :  https://leetcode.com/problems/find-customer-referee/description/
 
-
 -- Your solution here
 SELECT
  name

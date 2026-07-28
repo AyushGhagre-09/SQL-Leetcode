@@ -2,9 +2,7 @@
 -- Difficulty: Easy 
 -- Link     :  https://leetcode.com/problems/rising-temperature/
 
-
 -- Your solution here
-# Write your MySQL query statement below
 WITH  cte As(
 SELECT 
  id,

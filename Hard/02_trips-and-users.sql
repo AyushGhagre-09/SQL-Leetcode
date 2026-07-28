@@ -2,7 +2,6 @@
 -- Difficulty: Hard
 -- Link     :  https://leetcode.com/problems/trips-and-users/description
 
-
 -- Your solution here
 WITH trip_counts AS (
     SELECT
