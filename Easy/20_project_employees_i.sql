@@ -9,5 +9,5 @@ SELECT
 FROM Project AS p
 INNER JOIN Employee AS e
  ON p.employee_id=e.employee_id
-GROUP BY p.project_id
+GROUP BY p.project_id;
 
