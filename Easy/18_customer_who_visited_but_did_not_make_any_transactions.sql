@@ -3,7 +3,6 @@
 -- Link     :  https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=top-sql-50
 
 -- Your solution here
-
 SELECT 
  v.customer_id,
  COUNT(v.visit_id) AS count_no_trans

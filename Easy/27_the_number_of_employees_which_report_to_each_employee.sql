@@ -3,7 +3,6 @@
 -- Link     :  https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/?envType=study-plan-v2&envId=top-sql-50
 
 -- Your solution here
-
 SELECT
   T.report_to AS employee_id,
   T.name,
