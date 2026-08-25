@@ -13,4 +13,3 @@ WHERE e.salary<30000
   AND m.employee_id IS NULL
 ORDER BY e.employee_id
 
---  AND m.employee_id IN (SELECT employee_id FROM Employees);
