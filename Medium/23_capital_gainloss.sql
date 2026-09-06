@@ -1,4 +1,4 @@
--- Problem  :  Second Highest Salary
+-- Problem  :  Capital Gain/Loss
 -- Difficulty: Medium 
 -- Link     : https://leetcode.com/problems/capital-gainloss/description/
 
