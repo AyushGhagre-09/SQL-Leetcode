@@ -1,5 +1,5 @@
 -- Problem  :  Find Stores with Inventory Imbalance
--- Difficulty: Easy 
+-- Difficulty: Medium
 -- Link     : https://leetcode.com/problems/find-stores-with-inventory-imbalance/description/
 
 -- Your solution here
