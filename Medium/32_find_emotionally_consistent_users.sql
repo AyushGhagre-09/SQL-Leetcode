@@ -8,7 +8,7 @@ WITH user_reaction_counts AS (
         user_id,
         reaction AS dominant_reaction,
         ROUND(COUNT(*) /(SELECT COUNT(*) FROM reactions  r1 where r.user_id=r1.user_id),2)AS reaction_ratio,
-        (SELECT COUNT(content_id) FROM reactions  r1 where r.user_id=r1.user_id) AS content_count
+        (SELECT COUNT(r1.content_id) FROM reactions  r1 where r.user_id=r1.user_id) AS content_count
     FROM reactions AS r
     GROUP BY user_id, reaction 
 
