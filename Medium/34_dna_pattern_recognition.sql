@@ -1,0 +1,17 @@
+-- Problem  :  DNA Pattern Recognition 
+-- Difficulty: Medium 
+-- Link     : https://leetcode.com/problems/dna-pattern-recognition/description/
+
+-- Your solution here
+SELECT
+ sample_id,
+ dna_sequence,
+ species,
+ COUNT(CASE WHEN dna_sequence LIKE  'ATG%' THEN 1 END ) AS has_start,
+ COUNT(CASE WHEN dna_sequence LIKE  '%TAG'  OR dna_sequence LIKE  '%TAA' OR dna_sequence LIKE  '%TGA'THEN 1 END ) AS has_stop,
+ COUNT(CASE WHEN dna_sequence LIKE  '%ATAT%' THEN 1 END ) AS has_atat,
+ COUNT(CASE WHEN dna_sequence LIKE  '%GGG%' THEN 1 END ) AS has_ggg
+
+FROM  Samples
+GROUP BY  sample_id,dna_sequence,species
+ORDER BY sample_id ASC
